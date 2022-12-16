@@ -1,0 +1,19 @@
+.center-bt{
+
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 18%;
+        left: 40%;
+}
+.card{
+        margin: 18px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#card-content {
+        font-size: small;
+        font-weight: 600;
+    }

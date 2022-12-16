@@ -1,0 +1,13 @@
+<div class="container" *ngFor="let products of productList.reverse()">
+    <div class="card">
+        <div class="card-header">
+          Featured
+          <img class="card-img-top"  style="height: 30vh;" src="{{products.productImg}}" alt="..."  />
+        </div>
+        <div class="card-body" id="card-content">
+          <h5 class="card-title">{{products.name}}</h5>
+          <p class="card-text">{{products.description}}</p>
+          <a href="products/view-product/{{products.id}}" class="btn btn-info center-bt" >View Details</a>
+        </div>
+     
+</div>

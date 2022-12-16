@@ -1,0 +1,170 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Manali",
+      "categoryId": 1,
+      "description": "Manali is a town, near Kullu town in Kullu district in the Indian state of Himachal Pradesh.",
+      "price": 300,
+      "productImg": "https://th.bing.com/th/id/OIP.LQ8e3TWN1EXe7tj8bsmvgQHaE8?pid=ImgDet&rs=1",
+      "rating": "5.0 stars"
+    },
+    {
+      "id": 2,
+      "name": "Udaipur",
+      "categoryId": 2,
+      "description": "Trip2",
+      "price": 500,
+      "productImg": "http://localhost:4200/assets/2.jpg",
+      "rating": "3.0stars"
+    },
+    {
+      "id": 3,
+      "name": "Jaipur",
+      "categoryId": 3,
+      "description": "Desert Trip",
+      "price": 600,
+      "productImg": "http://localhost:4200/assets/3.jpg",
+      "rating": "4.0stars"
+    },
+    {
+      "id": 4,
+      "name": "Tamil Naidu",
+      "categoryId": 4,
+      "description": "For South Lover",
+      "price": 500,
+      "productImg": "http://localhost:4200/assets/4.jpg",
+      "rating": "4.0stars"
+    },
+    {
+      "id": 5,
+      "name": "Kerla",
+      "categoryId": 5,
+      "description": "For Great Fun",
+      "price": 200,
+      "productImg": "http://localhost:4200/assets/5.jpg",
+      "rating": "5.0stars"
+    },
+    {
+      "id": 6,
+      "name": "Punjab",
+      "categoryId": 5,
+      "description": "For Food",
+      "price": 400,
+      "productImg": "http://localhost:4200/assets/11.jpg",
+      "rating": "3.0stars"
+    },
+    {
+      "id": 7,
+      "name": "Amritsar",
+      "categoryId": 1,
+      "description": "Amritsar, historically also known as Rāmdāspur and colloquially as Ambarsar, is the second largest city in the Indian state of Punjab, after Ludhiana. It is a major cultural, transportation and economic centre, located in the Majha region of Punjab",
+      "price": 100,
+      "productImg": "https://th.bing.com/th/id/OIP.SQy3NLucGz6aHCZ_Fr7b-gHaE7?pid=ImgDet&rs=1",
+      "rating": "4.0 stars"
+    },
+    {
+      "id": 9,
+      "name": "Shimla",
+      "categoryId": 1,
+      "description": "Shimla is the capital and the largest city of the northern Indian state of Himachal Pradesh. In 1864, Shimla was declared as the summer capital of British India. After independence, the city became the capital of East Punjab and was later made the capital city of Himachal Pradesh. It is the principal commercial, cultural and educational centre of the state.",
+      "price": 150,
+      "productImg": "https://cdn1.goibibo.com/voy_ing/t_fs/himachal-pradesh-shimla-147616947938o.jpeg",
+      "rating": "4.5stars"
+    },
+    {
+      "id": 9,
+      "name": "Goa",
+      "categoryId": 5,
+      "description": "a state on the west coast of India; capital, Panaji. Formerly a Portuguese territory, it was seized by India in 1961. It formed a Union Territory with Daman and Diu until 1987, when it was made a state.",
+      "price per person": 250,
+      "productImg": "https://th.bing.com/th/id/R.34cfaeabedab7176da1004932d95398f?rik=ZKOvdSqWQwB3bA&riu=http%3a%2f%2fmedia.vogue.in%2fwp-content%2fuploads%2f2017%2f03%2fVogue-guide-to-Goa.jpg&ehk=SoaZ8wkPxXhw1KjPttyR%2fPAWX5JrzESliBiLgNhTt1w%3d&risl=&pid=ImgRaw&r=0",
+      "rating": "3.6stars"
+    },
+    {
+      "name": "Dharamshala",
+      "description": "Dharamshala is the winter capital of Himachal Pradesh, India. It serves as administrative headquarters of the Kangra district after being relocated from Kangra, a city located 18 km away from Dharamshala, in 1855.",
+      "rating": "",
+      "price": "209",
+      "productImg": "https://th.bing.com/th/id/OIP.l1tjpOCOKtbf7hSWfdEoywHaDt?pid=ImgDet&rs=1",
+      "isAvailable": 1,
+      "id": 117
+    },
+    {
+      "productID": 21,
+      "categoryID": "110",
+      "name": "Auli",
+      "description": "Auli is in Chamoli district in the Himalayan mountains of Uttrakhand, India. Auli, also known as Auli Bugyal, in Garhwali, which means , is located at an elevation of 2,800 metres above sea level. Between June and October, the valley has one of highest numbers of flower species found anywhere in the world, with 520 species of high altitude plants, 498 of which are flowering plants with significant populations of endangered species.",
+      "rating": "2",
+      "price": "230",
+      "productImg": "https://th.bing.com/th/id/R.37b17382e260d47955ebe415a11fe8ee?rik=x%2fwdnM5RV1gEPg&riu=http%3a%2f%2fblog.thomascook.in%2fwp-content%2fuploads%2f2015%2f10%2fAuli.jpg&ehk=bxP1LuR5o%2fKpUQCtskK4MohhuBEQntW%2fzPmmcIlRRHw%3d&risl=&pid=ImgRaw&r=0",
+      "isAvailable": 1,
+      "review": "110",
+      "id": 118
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Upcoming Event"
+    },
+    {
+      "id": 2,
+      "categoryName": "OnGoing Event"
+    },
+    {
+      "id": 3,
+      "categoryName": "Trip Planning"
+    },
+    {
+      "id": 4,
+      "categoryName": "Birthday parties"
+    },
+    {
+      "id": 5,
+      "categoryName": "Visted Trips"
+    }
+  ],
+  "SignupUsers": [
+    {
+      "fullname": "saloni gupta",
+      "email": "saloni27301@gmail.com",
+      "password": "1111",
+      "mobile": 9318336914,
+      "id": 1,
+      "admin": true
+    }
+  ],
+  "Name": [
+    {
+      "nameId": 1,
+      "Name": "Tanya Sharma",
+      "email":"tanya123@gmail.com"
+    },
+    {
+      "nameId": 2,
+      "Name": "Bhawna choudary",
+      "email":"bhaw23@gmail.com"
+    },
+    {
+      "nameId": 3,
+      "Name": "Saloni Gupta",
+      "email":"saloni1233@gmail.com"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

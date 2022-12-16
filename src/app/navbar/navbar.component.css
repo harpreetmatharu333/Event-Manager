@@ -1,0 +1,15 @@
+#navbarSupportedContent
+{
+    position: relative;
+    left: 250px;
+    font-size: large;
+    
+}
+
+.navbar-brand{
+    margin-left: 100px;
+    
+}
+.nav-item>a{
+    color: rgb(116, 12, 12);
+}
