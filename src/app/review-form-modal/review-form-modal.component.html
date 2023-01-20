@@ -1,0 +1,77 @@
+<div class="modal-header">
+  <h5 class="modal-title" id="exampleModalLabel">{{ title }}</h5>
+  <button type="button" class="btn-close" aria-label="Close" (click)="close()"></button>
+</div>
+<div class="modal-body">
+  <form #formData="ngForm" (ngSubmit)="save(formData.value)">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6">
+          <div class="form-group">
+            <label for="firstname" class="form-label">First Name</label>
+            <input type="text" ngModel name="firstname" #firstname="ngModel" class="form-control" id="firstname" required [ngClass]="{ 'is-invalid': firstname.errors && firstname.touched }">
+          </div>
+          <div class="validation-error mt-0" *ngIf="firstname.touched && !firstname.valid">
+            <div *ngIf="firstname.errors && firstname.errors?.['required']">Firstname is required</div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="form-group">
+            <label for="lastname" class="form-label">Last Name</label>
+            <input type="text" ngModel name="lastname" #lastname="ngModel" class="form-control" id="lastname"  required [ngClass]="{ 'is-invalid': lastname.errors && lastname.touched }">
+          </div>
+          <div class="mt-0 validation-error" *ngIf="lastname.touched && !lastname.valid">
+            <div *ngIf="lastname.errors?.['required']">Lastname is required</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="mt-2 form-group">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" ngModel name="email" #email="ngModel" class="form-control" id="email" required [ngClass]="{ 'is-invalid': email.errors && email.touched }">
+          </div>
+          <div class="mt-0 validation-error" *ngIf="email.touched && !email.valid">
+            <div *ngIf="email.errors?.['required']">Email is required</div>
+            <div *ngIf="email.errors?.['email']">Email address is invalid</div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="mt-2 form-group">
+            <label for="date" class="form-label">Date</label>
+            <input type="date" ngModel name="date" #date="ngModel" class="form-control" id="date" required [ngClass]="{ 'is-invalid': date.errors && date.touched }">
+          </div>
+          <div class="mt-0 validation-error" *ngIf="date.touched && !date.valid">
+            <div *ngIf="date.errors?.['required']">Date is required</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="mt-2 form-group">
+          <label for="review" class="form-label">Review</label>
+          <textarea ngModel name="review" #review="ngModel" id="review" cols="25" rows="4" class="form-control" required [ngClass]="{ 'is-invalid': review.errors && review.touched }" ></textarea>
+        </div>
+        <div class="mt-0 validation-error" *ngIf="review.touched && !review.valid">
+          <div *ngIf="review.errors?.['required']">Please write your valueable reviews here.</div>
+        </div>
+      </div>
+      <div class="row text-center ">
+        <div class="mb-1 form-group">
+          <ngb-rating [max]="5" [(rate)]="currentRating" ngModel name="rating" #rating="ngModel" id="rating" required>
+            <ng-template let-fill="fill">
+              <span class="star" [ngClass]="'color'+currentRating"[class.filled]="fill === 100">&#9733;</span>
+            </ng-template>
+          </ngb-rating>
+        </div>
+      </div>
+    </div>
+
+  </form>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-secondary" (click)="close()">
+    Close
+  </button>
+  <button type="submit" [class.disabled]="!formData.valid" class="btn btn-primary" (click)="save(formData.value)">Save changes</button>
+  
+</div>

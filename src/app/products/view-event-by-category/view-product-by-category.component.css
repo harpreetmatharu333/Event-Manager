@@ -1,0 +1,35 @@
+.card {
+    display: inline-block;
+    flex-direction: row;
+}
+
+.div1 {
+    flex-wrap: wrap;
+}
+
+.div2 {
+    width: 253px;
+}
+
+.div3 {
+    overflow: hidden;
+    display: flex;
+    align-self: normal;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    height: 200px;
+    width: 100%;
+}
+
+.div4 {
+    height: 200px;
+    overflow: hidden;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}

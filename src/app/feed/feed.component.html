@@ -1,0 +1,218 @@
+<div class="container-fluid">
+
+  <div class="row mb-3 mt-0 ">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-background active">
+          <img src="./assets/images/15.jpeg" width="1000" height="403" class="d-block w-100 carousel-img" alt="...">
+          <div class="center">
+            <p>Every occasion deserves the careful planning</p>
+            <a class="btn btn-light btn-lg px-3" [routerLink]="['/products']" role="button">Visit All
+              Events</a>
+          </div>
+        </div>
+        <div class="carousel-item carousel-background">
+          <img src="./assets/images/16.jpg" width="1000" height="403" class="d-block w-100 carousel-img " alt="...">
+          <div class="center">
+            <p>The event you imagine, brought to life</p>
+            <a class="btn btn-light btn-lg px-3" [routerLink]="['/products']" role="button">Visit All
+              Events</a>
+          </div>
+        </div>
+        <div class="carousel-item carousel-background">
+          <img src="./assets/images/14.jpg" width="1000" height="403" class="d-block w-100 carousel-img" alt="...">
+          <div class="center">
+            <p>Exclusive events, priceless memories</p>
+            <a class="btn btn-light btn-lg px-3" [routerLink]="['/products']" role="button">Visit All
+              Events</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="row my-5">
+    <div class="card text-center border-0">
+      <div class="card-body">
+        <h1 class="card-title">Explore More Feeds</h1>
+        <p class="card-text">Have a glance on the memories of previous events.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row m-5">
+    <div class="col-4">
+      <div class="card mb-3 border-0">
+        <img src="./assets/images/4.jpg" class="card-img-top img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">poland</h5>
+          <p class="card-text">It is a country in Central Europe.Poland has a variety of striking landscapes,it has many
+            incredible historical destinations.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card mb-3 border-0">
+        <img src="./assets/images/7.jpg" class="card-img-top img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Auli</h5>
+          <p class="card-text">Auli is one of the most attractive place in north Indian state of Uttarakhand.it's a hill
+            station which is surrounded by coniferous and oak forests.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card mb-3 border-0">
+        <img src="./assets/images/20.jpg" class="card-img-top img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Germany</h5>
+          <p class="card-text">Germany is a Western European country with a landscape of forests, rivers, mountain
+            ranges.There are countless interesting places to visit in Germany.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row m-5">
+    <div class="col-4">
+      <div class="card mb-3 border-0">
+        <img src="./assets/images/19.jpg" class="card-img-top img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Jaisalmer</h5>
+          <p class="card-text">Jaisalmer is a former medieval trading center and a princely state in the western Indian
+            state of Rajasthan, in the heart of the Thar Desert. Known as the "Golden City.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card mb-3 border-0">
+        <img src="./assets/images/13.jpg" class="card-img-top img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Agra</h5>
+          <p class="card-text">It is famous for its Mughal architecture and for being home to one of the Seven Wonders
+            of the World, the Taj Mahal - a monument of incredible elegance and architectural perfection.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card mb-3 border-0">
+        <img src="./assets/images/17.jpg" class="card-img-top img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Singapore</h5>
+          <p class="card-text">It is a sovereign island country and city-state in maritime Southeast Asia. has always
+            been a city in nature, with lush natural landscapes, beautiful gardens and tranquil oases of greenery
+            dotting our urban landscape.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--success alert-->
+<!--<div  class="row" >
+  <div *ngIf="submitted" class="col-md-7 align-items-end" id="alert-box">
+    <span  class="alert alert-success alert-dismissible fade show" role="alert">
+       Your info has been saved successfully.
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </span>
+  </div>
+</div>-->
+
+  <div class="row my-3 m-3">
+    <div class="card text-center border-0">
+      <div class="card-body">
+        <!--<h1 class="card-title">Share your reviews</h1>-->
+        <button class="btn btn-primary btn-lg px-5" (click)="openModal()">Click here to share your reviews</button>
+      </div>
+    </div>
+  </div>
+
+  <!--testimonial-->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8 col-center m-auto" >
+        <h2 class="mb-5 mt-0">Testimonials</h2>
+
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+          <!--Carousel--> 
+          <div class="carousel-inner">
+
+            <!-- static -->
+            <div class="item carousel-item px-5 active text-center" data-bs-interval="3000">
+              <div class="text-center ">
+                <div>
+                  <img src="./assets/images/avatar-image.png" alt="" class="rounded-circle">
+                </div>
+              </div>
+
+              <p class="testimonial">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, corporis quasi voluptate facilis animi repellat aut iure vel cupiditate dolores!
+              </p>
+              <p class="overview mb-0">
+                <b>Harpreet Singh</b>
+              </p>
+            <ngb-rating [max]="5" [(rate)]="rating" id="starrating" class="mt-0">
+              <ng-template let-fill="fill">
+                <span class="star" [ngClass]="'color'+ rating" [class.filled]="fill === 100">&#9733;</span>
+              </ng-template>
+            </ngb-rating>
+           </div>
+
+              <!-- dynamic -->
+            <div class="item carousel-item text-center" data-bs-interval="3000" *ngFor="let user of userlist">
+              <div class="text-center ">
+                <div>
+                  <img src="./assets/images/avatar-image.png" alt="" class="rounded-circle">
+                </div>
+              </div>
+
+              <p class="testimonial mx-5">
+                {{user.review}}
+              </p>
+              <p class="overview mb-0">
+                <b>{{user.firstname}}</b>&nbsp;<b>{{user.lastname}}</b>
+              </p>
+            <ngb-rating [max]="5" [(rate)]="user.rating" id="starrating" class="mt-0">
+              <ng-template let-fill="fill">
+                <span class="star" [ngClass]="'color'+user.rating" [class.filled]="fill === 100">&#9733;</span>
+              </ng-template>
+            </ngb-rating>
+           </div>
+
+          </div>
+           <!--Carousel Controls -->
+          <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+            <i class="fa fa-angle-left"></i>
+          </a>
+          <a class="carousel-control right carousel-control-next" href="#myCarousel" data-bs-slide="next">
+            <i class="fa fa-angle-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+   
+   
+
+
+
+</div>

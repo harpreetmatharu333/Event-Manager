@@ -1,0 +1,27 @@
+.center-bt{
+
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 18%;
+        left: 40%;
+}
+.card{
+        margin: 18px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#card-content {
+        font-size: small;
+        font-weight: 450;
+    }
+
+ .button-color {
+        background-color: rgb(0 120 212);
+        color: white;
+ }   
+ .card-img-top {
+        height: 30vh;
+      }

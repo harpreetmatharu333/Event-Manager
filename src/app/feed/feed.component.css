@@ -1,0 +1,131 @@
+.img{
+  border-radius: 15%;
+}
+.carousel-img{
+  opacity: 0.4;
+}
+.carousel-background{
+  background:rgba(57, 75, 192, 0.82) 
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:50px;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+}
+.btn{
+  opacity: 0.7;
+  transition: 0.4s;
+}
+.btn:hover{
+  opacity: 1;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  position: relative;
+  margin: 30px 0 60px;
+}
+h2::after {
+  content: "";
+  width: 140px;
+  position: absolute;
+  margin: 0 auto;
+  height: 3px;
+  background: rgb(0 120 212);
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  opacity: .8;
+}
+.col-center {
+  margin: 0 auto;
+  float: none !important;
+}
+/*.carousel {
+  margin: 50px auto;
+  padding: 0 70px;
+}*/
+.carousel .testimonial {
+  padding: 30px 0 10px;
+}
+.carousel .overview {   
+  font-style: italic;
+}
+.carousel .overview b {
+  text-transform: uppercase;
+  color: rgb(0 120 212);
+}
+.carousel .carousel-control {
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  top: 50%;
+  background: none;
+}
+.carousel-control i {
+  font-size: 40px;
+  line-height: 20px;
+  position: absolute;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel .carousel-indicators {
+  bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+  width: 10px;
+  height: 10px;
+  margin: 1px 3px;
+  border-radius: 50%;
+}
+.carousel-indicators li {   
+  background: #999;
+  border-color: transparent;
+  box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li.active {    
+  background: #555;       
+  box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.left {
+  color: #000;
+  
+}
+.right {
+  color: #000;
+}
+.star {
+  font-size: 3.5rem;
+  color: #b0c4de;
+}
+.filled.color1 {
+  color: red;
+}
+.filled.color2 {
+  color: orange;
+} 
+.filled.color3 {
+  color: rgb(247, 240, 59);
+}
+.filled.color4 {
+  color: rgb(141, 245, 6);
+} 
+.filled.color5 {
+  color: green;
+} 
+#alert-box{
+  position: fixed;
+  top: 15%;
+  right: 0;
+  
+}

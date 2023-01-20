@@ -1,0 +1,24 @@
+.star {
+    font-size: 2.5rem;
+    color: #b0c4de;
+  }
+  .filled.color1 {
+    color: red;
+  }
+  .filled.color2 {
+    color: orange;
+  } 
+  .filled.color3 {
+    color: rgb(247, 240, 59);
+  }
+  .filled.color4 {
+    color: rgb(141, 245, 6);
+  } 
+  .filled.color5 {
+    color: green;
+  } 
+
+  .validation-error{
+    color:red;
+  }
+ 
