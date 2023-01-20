@@ -14,26 +14,7 @@ export class AddProductComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  // addNewProduct(form: any){
-    // console.log(form.value);
-
-    // let newProduct={
-    //   id:112,
-    //   categoryId:form.value.product_category,
-    //   name:form.value.product_name,
-    //   description:form.value.product_description,
-    //   rating:form.value.product_rating,
-    //   price:form.value.product_price,
-    //   // productImg:'',
-    //   isAvailable:1,
-    //   color:form.value.product_color,
-    //   review:form.value.product_category,
-    // };
-    // console.log(newProduct);
-    // this.productService.createProduct(newProduct).subscribe(data=>{
-    //   console.log(data)
-    // })
-
+  
 
     addNewProduct(form:any){
       console.log(form.value);
@@ -47,7 +28,6 @@ export class AddProductComponent implements OnInit {
           price: form.value.product_price,
           productImg:form.value.product_Img,
           isAvailable: 1,
-          // color: form.value.product_color,
           review: form.value.product_category,
       };
   

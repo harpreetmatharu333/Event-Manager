@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { name } from '../name';
 import { Product } from '../product';
 import { ProductService } from '../product.service';
@@ -16,7 +16,8 @@ export class ViewProductComponent implements OnInit {
   Count1=0;
   nameId=0;
   Name!:any;
-  constructor(private activatedRoute:ActivatedRoute,private productService:ProductService) { }
+  promptName:any;
+  constructor(private activatedRoute:ActivatedRoute,private productService:ProductService,private router:Router) { }
 
   ngOnInit(): void {
     this.activatedRoute.params.subscribe(data=>{
@@ -36,9 +37,18 @@ export class ViewProductComponent implements OnInit {
       this.nameId=data['id'];
       
     })
+    // this.promptName=prompt("Enter Your Name")
+    // console.log(this.promptName);
+    // let addName={
+    //   Name:this.promptName.value
+    // }
 
-   
-  }
+}
+addName(){
+  this.router.navigate(['products/add-name']);
+}
+
+
   
   
 

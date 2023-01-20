@@ -7,11 +7,13 @@ import { HttpClientModule } from  '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FeedsComponent } from './feeds/feeds.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    FeedsComponent
+    FeedsComponent,
+    
   ],
   imports: [
     BrowserModule,

@@ -47,5 +47,10 @@ export class ProductService {
     const baseUrl ="http://localhost:3000/Name/";
     return this.httpClient.get<name>(baseUrl);
   }
+  setName(promptName: any):Observable<name>{ 
+    const baseUrl="http://localhost:3000/Name/";
+    return this.httpClient.post<name> (baseUrl,promptName);
+  }
+  
 
 }

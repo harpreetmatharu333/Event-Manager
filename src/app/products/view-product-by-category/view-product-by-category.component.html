@@ -1,24 +1,25 @@
-<h2 class="text-center">Showing result by category</h2>
+<!-- <h2 class="text-center">Showing result by category</h2> -->
 <section >
-    <div class="container px-4 px-lg-5 mt-5">
-        <div class="row gx-4  row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" >
-            <div class="col mb-5 " *ngFor="let products of productList">
-                <div class="card h-100" >
+    <div class="container px-7 px-lg-5 mt-3">
+        <div class="row gx-4  row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-space-around" style="flex-wrap: wrap;">
+            <div class="col mb-5 " style="width:253px;" *ngFor="let products of productList">
+                <div class="card " style="overflow:hidden;display:flex;align-self: normal;flex-direction: column;align-items: center;">
                     <!-- Product image-->
-                    <img class="card-img-top" src="{{products.productImg}}" alt="..." />
+                    <img class="card-img-top" src="{{products.productImg}}" style="height: 200px;width: 100%;" alt="..." />
                     <!-- Product details-->
-                    <div class="card-body p-4">
+                    <div class="card-body p-1 " style="height:200px;overflow:hidden;">
                         <div class="text-center">
                             <!-- Product name-->
-                            <a href="products/view-product/{{products.id}}"><h5 class="fw-bolder">{{products.name}}</h5></a> 
-                            <p class="">{{products.description}}</p>
+                            <a href="products/view-product/{{products.id}}" style="color:black;text-decoration:none" >
+                                <h5 class="mt-3 ">{{products.name}}</h5></a> 
+                            <p class="" >{{products.description}}</p>
                             <!-- Product price-->
                            <!-- $ {{products.price}} -->
                         </div>
                     </div>
                     <!-- Product actions-->
-                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a href="products/view-product/{{products.id}}" class="btn btn-info center-bt" >View Details</a></div>
+                    <div class="card-footer  border-top-0 bg-transparent" >
+                        <div class="text-center mt-0"><a href="products/view-product/{{products.id}} " class="btn btn-info center-bt" >View Details</a></div>
                     </div>
                 </div>
             </div>

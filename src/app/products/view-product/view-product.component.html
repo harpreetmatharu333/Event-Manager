@@ -1,4 +1,4 @@
-  <section class="u-clearfix u-section-2" id="sec-d24b">
+<section class="u-clearfix u-section-2" id="sec-d24b" style="margin-top:20px">
     <div class="u-clearfix u-sheet u-sheet-1"><!--product--><!--product_options_json--><!--{"source":""}--><!--/product_options_json--><!--product_item-->
       <div class="u-container-style u-product u-product-1">
         <div class="u-container-layout u-container-layout-1"><!--product_image-->
@@ -17,41 +17,12 @@
           
           <div class="u-product-control u-product-desc u-text u-text-default u-text-grey-40 u-text-2"><!--product_content_content-->{{productDetails.description}}<!--/product_content_content--></div><!--/product_content--><!--product_button--><!--options_json--><!--{"clickType":"add-to-cart"}--><!--/options_json-->
           <br>
-          <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Interested ({{Count}})
+          <button type="button" class="btn btn-outline-danger" (click)="addName()"> Interested ({{Count}})
           
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Fill Details</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="recipient-name" class="col-form-label">Name:</label>
-            <input type="text" class="form-control" id="recipient-name">
-          </div>
-          <div class="form-group">
-            <label for="message-text" class="col-form-label">Email:</label>
-            <textarea class="form-control" id="message-text"></textarea>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" (click)="interested()">Submit</button>
-      </div>
-    </div>
-  </div>
-</div>
+            
+
 </button>
-          <!-- <button type="button" class="btn btn-outline-danger mx-4" (click)="notInterested()"> Not Interested  <span>({{Count1}})</span></button> -->
-        </div>
-      </div><!--/product_item--><!--/product-->
-    </div>
+          
 
 
 
@@ -82,6 +53,7 @@
 <td>{{item.Name}}</td>
 
 
+
 <td>
 <button  class="btn btn-danger"><i class="far fa-trash-alt"></i></button>
 </td>
@@ -98,6 +70,6 @@
 
 
 
-  </section>
+  
   
  

@@ -1,21 +1,12 @@
 {
   "product": [
     {
-      "id": 1,
-      "name": "Manali",
-      "categoryId": 1,
-      "description": "Manali is a town, near Kullu town in Kullu district in the Indian state of Himachal Pradesh.",
-      "price": 300,
-      "productImg": "https://th.bing.com/th/id/OIP.LQ8e3TWN1EXe7tj8bsmvgQHaE8?pid=ImgDet&rs=1",
-      "rating": "5.0 stars"
-    },
-    {
       "id": 2,
       "name": "Udaipur",
       "categoryId": 2,
       "description": "Trip2",
       "price": 500,
-      "productImg": "http://localhost:4200/assets/2.jpg",
+      "productImg": "https://th.bing.com/th/id/R.c5efdde220b4d237e9f2a5abdbc14345?rik=PWJsbT%2f%2fuSDQMw&riu=http%3a%2f%2fblog.the-maharajas.com%2fwp-content%2fuploads%2f2014%2f12%2fUdaipur-City-Palace-Sunset.jpg&ehk=QKZadAKseirad98YLVkogpgTlaY2GPB7VOs9BCEtU08%3d&risl=&pid=ImgRaw&r=0",
       "rating": "3.0stars"
     },
     {
@@ -24,7 +15,7 @@
       "categoryId": 3,
       "description": "Desert Trip",
       "price": 600,
-      "productImg": "http://localhost:4200/assets/3.jpg",
+      "productImg": "https://www.tripsavvy.com/thmb/Afl1v6bgmGid9kPfseymDiAYWa0=/3595x2397/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-518387310-04a30994bfb1461bb8000f1864ca1fc5.jpg",
       "rating": "4.0stars"
     },
     {
@@ -33,7 +24,7 @@
       "categoryId": 4,
       "description": "For South Lover",
       "price": 500,
-      "productImg": "http://localhost:4200/assets/4.jpg",
+      "productImg": "https://cdn.kimkim.com/files/a/images/b96ba41156dcc891c67bc924e2f12b5934a737ca/big-9476f3f7df82139166c780f864b64479.jpg",
       "rating": "4.0stars"
     },
     {
@@ -42,7 +33,7 @@
       "categoryId": 5,
       "description": "For Great Fun",
       "price": 200,
-      "productImg": "http://localhost:4200/assets/5.jpg",
+      "productImg": "https://th.bing.com/th/id/OIP.LdlhjTg3nrgs5ty91XiEkwHaEK?pid=ImgDet&rs=1",
       "rating": "5.0stars"
     },
     {
@@ -51,7 +42,7 @@
       "categoryId": 5,
       "description": "For Food",
       "price": 400,
-      "productImg": "http://localhost:4200/assets/11.jpg",
+      "productImg": "https://th.bing.com/th/id/OIP.lF-WQXgRSqisCLhym_LZugHaE7?pid=ImgDet&rs=1",
       "rating": "3.0stars"
     },
     {
@@ -83,6 +74,7 @@
     },
     {
       "name": "Dharamshala",
+      "categoryId": 3,
       "description": "Dharamshala is the winter capital of Himachal Pradesh, India. It serves as administrative headquarters of the Kangra district after being relocated from Kangra, a city located 18 km away from Dharamshala, in 1855.",
       "rating": "",
       "price": "209",
@@ -92,7 +84,7 @@
     },
     {
       "productID": 21,
-      "categoryID": "110",
+      "categoryId": "1",
       "name": "Auli",
       "description": "Auli is in Chamoli district in the Himalayan mountains of Uttrakhand, India. Auli, also known as Auli Bugyal, in Garhwali, which means , is located at an elevation of 2,800 metres above sea level. Between June and October, the valley has one of highest numbers of flower species found anywhere in the world, with 520 species of high altitude plants, 498 of which are flowering plants with significant populations of endangered species.",
       "rating": "2",
@@ -139,17 +131,26 @@
     {
       "nameId": 1,
       "Name": "Tanya Sharma",
-      "email":"tanya123@gmail.com"
+      "email": "tanya123@gmail.com",
+      "withFamily": "NO",
+      "contribution": "NO",
+      "goc_Name": "Sprint"
     },
     {
       "nameId": 2,
       "Name": "Bhawna choudary",
-      "email":"bhaw23@gmail.com"
+      "email": "bhaw23@gmail.com",
+      "withFamily": "NO",
+      "contribution": "NO",
+      "goc_Name": "Sprint"
     },
     {
       "nameId": 3,
       "Name": "Saloni Gupta",
-      "email":"saloni1233@gmail.com"
+      "email": "saloni1233@gmail.com",
+      "withFamily": "NO",
+      "contribution": "NO",
+      "goc_Name": "Sprint"
     }
   ],
   "comments": [

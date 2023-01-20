@@ -1,0 +1,41 @@
+<h2 class="bg-light mb-2 text-center" style="color:#f1592f">Add Your Information</h2>
+<form  (submit)="addNewName(addName)" #addName="ngForm" style=" padding: 10px;" >
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationServer01">Name</label>
+        <input type="text" class="form-control" value="Enter Product Name" required name="product_name" ngModel>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label for="validationServer02"> Email</label>
+        <input type="text" class="form-control" required name="product_email" ngModel>
+      </div>
+    </div>
+    <div class="form-row">
+        <div class="col-md-6 mb-3">
+            <label for="validationServer02">Ok with budget contribution??</label>
+            <select class="custom-select" required name="product_contri" ngModel>
+              <option selected value="">Choose...</option>
+              <option value="1">Yes</option>
+              <option value="0">No</option>
+            </select>
+          </div>
+    </div>
+    <div class="form-row">
+        
+        <div class="col-md-6 mb-3">
+          <label for="validationServer02">With Family</label>
+          <select class="custom-select" required name="product_available_family" ngModel>
+            <option selected value="">Choose...</option>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="validationServer01">Goc Name</label>
+          <input type="text" class="form-control" value="Enter Product Name" required name="product_goc" ngModel>
+        </div>
+      </div>
+    <button class="btn btn-primary text-center" type="submit">Submit form</button>
+  </form>

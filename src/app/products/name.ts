@@ -1,5 +1,8 @@
 export interface name {
-    nameId:string;
+    nameId:String;
     Name:String;
-    email:string;
+    email:String;
+      withFamily: boolean;
+      contribution:boolean;
+      goc_Name:string
 }

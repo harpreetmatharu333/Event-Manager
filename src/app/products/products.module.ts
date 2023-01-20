@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';
 
 
 import { SideBaarComponent } from './side-baar/side-baar.component';
+import { AddNameComponent } from './add-name/add-name.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { SideBaarComponent } from './side-baar/side-baar.component';
     ViewProductByDateComponent,
     ViewProductByCategoryComponent,
     SideBaarComponent,
+    AddNameComponent,
   ],
   imports: [
     CommonModule,
