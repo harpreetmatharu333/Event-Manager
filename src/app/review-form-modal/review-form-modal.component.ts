@@ -1,7 +1,9 @@
 import { UserService } from './../user.service';
 import { MdbModalRef } from 'mdb-angular-ui-kit/modal';
 import { Component, OnInit } from '@angular/core';
-import { NgForm } from '@angular/forms';
+import { FormBuilder, FormGroup, NgForm, Validators } from '@angular/forms';
+import * as moment from 'moment';
+import { UserValidators } from '../validators/Username.Validators';
 
 @Component({
   selector: 'app-review-form-modal',
@@ -13,10 +15,29 @@ export class ReviewFormModalComponent implements OnInit {
   title: string | null = null;
   public currentRating :any;
   submitted : boolean = true;
-
+  currentDate: String;
+  form: FormGroup;
 
   constructor(public modalRef: MdbModalRef<ReviewFormModalComponent>,
-              private userService: UserService ) { }
+              private userService: UserService,
+              fb: FormBuilder ) { 
+
+    this.currentDate = moment().format('YYYY-MM-DD');
+
+    this.form = fb.group({
+      firstname: ['',[Validators.required,UserValidators.cannotContainSpace, Validators.minLength(2)]],
+      lastname: ['',[UserValidators.cannotContainSpace]],
+      email: ['',[Validators.required,Validators.email,UserValidators.cannotContainSpace]],
+      date: [this.currentDate,[Validators.required,]],
+      review: ['',[Validators.required]],
+      rating: ['',[Validators.required]],
+
+    });
+              }
+  
+  get Form(){
+    return this.form.controls;
+    }
 
   ngOnInit(): void {
     this.currentRating = 0
@@ -47,3 +68,5 @@ export class ReviewFormModalComponent implements OnInit {
   
 
 }
+
+
