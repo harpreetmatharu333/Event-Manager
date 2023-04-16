@@ -214,66 +214,6 @@
       "isAvailable": 1,
       "review": "110",
       "id": 118
-    },
-    {
-      "productID": 21,
-      "categoryId": "2",
-      "name": "Dance",
-      "description": "something",
-      "price": "700",
-      "productImg": "ss",
-      "isAvailable": 1,
-      "id": 119
-    },
-    {
-      "productID": 21,
-      "categoryId": "",
-      "name": "Hamper",
-      "description": "",
-      "price": "",
-      "productImg": "",
-      "isAvailable": 1,
-      "id": 120
-    },
-    {
-      "productID": 21,
-      "categoryId": "",
-      "name": "",
-      "description": "",
-      "price": "",
-      "productImg": "",
-      "isAvailable": 1,
-      "id": 121
-    },
-    {
-      "productID": 21,
-      "categoryId": "",
-      "name": "kj",
-      "description": "",
-      "price": "9000",
-      "productImg": "C:\\fakepath\\Capture.PNG",
-      "isAvailable": 1,
-      "id": 122
-    },
-    {
-      "productID": 21,
-      "categoryId": "",
-      "name": "knkl",
-      "description": "",
-      "price": "",
-      "productImg": "C:\\fakepath\\7.jpg",
-      "isAvailable": 1,
-      "id": 123
-    },
-    {
-      "productID": 21,
-      "categoryId": "3",
-      "name": "cake",
-      "description": "czx",
-      "price": "3444",
-      "productImg": "",
-      "isAvailable": 1,
-      "id": 124
     }
   ],
   "categories": [
